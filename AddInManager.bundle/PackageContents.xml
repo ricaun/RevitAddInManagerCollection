@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage
+  
+  SchemaVersion="1.0"
+  AutodeskProduct="Revit"
+  Name="AddInManager"
+  Description=""
+  AppVersion="1.0.0" FriendlyVersion="1.0.0"
+  ProductType="Application"
+  Author="Autodesk"
+  HelpFile=""
+  SupportedLocales="Enu"
+  OnlineDocumentation=""
+  >
+
+  <CompanyDetails Name="Autodesk" Url="www.autodesk.com" Email="" />
+
+  <Components Description="Revit 2015">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2015" SeriesMax="R2015" />
+    <ComponentEntry AppName="AddInManager"
+                    ModuleName="./Contents/Revit 2015/Autodesk.AddInManager.addin">
+    </ComponentEntry>
+  </Components>
+
+  <Components Description="Revit 2016">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2016" SeriesMax="R2016" />
+    <ComponentEntry AppName="AddInManager"
+                    ModuleName="./Contents/Revit 2016/Autodesk.AddInManager.addin">
+    </ComponentEntry>
+  </Components>
+
+  <Components Description="Revit 2017">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2017" SeriesMax="R2017" />
+    <ComponentEntry AppName="AddInManager"
+                    ModuleName="./Contents/Revit 2017/Autodesk.AddInManager.addin">
+    </ComponentEntry>
+  </Components>
+
+  <Components Description="Revit 2018">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2018" SeriesMax="R2018" />
+    <ComponentEntry AppName="AddInManager"
+                    ModuleName="./Contents/Revit 2018/Autodesk.AddInManager.addin">
+    </ComponentEntry>
+  </Components>
+
+  <Components Description="Revit 2019">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2019" SeriesMax="R2019" />
+    <ComponentEntry AppName="AddInManager"
+                    ModuleName="./Contents/Revit 2018/Autodesk.AddInManager.addin">
+    </ComponentEntry>
+  </Components>
+  
+</ApplicationPackage>

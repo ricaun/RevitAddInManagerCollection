@@ -1,0 +1,8 @@
+#pragma option -e+
+{#AppName} version {#AppVersion}
+
+{#AppComments}
+
+You may need to restart the Autodesk product to activate the plug-in.
+
+To uninstall this plug-in, exit the Autodesk product if you are currently running it, you can uninstall it from "Control Panel\Programs\Programs and Features" (Windows 7/8/8.1/10), just as you would uninstall any other application from your system.
