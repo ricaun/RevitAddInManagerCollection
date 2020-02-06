@@ -1,14 +1,14 @@
 ; AddInManager.iss
 ; 
-; AddInManager Collection version 2015, 2016, 2017, 2018 and 2019.
+; AddInManager Collection version 2015, 2016, 2017, 2018, 2019 and 2020.
 ;
 ; created 10 01 2019
 ; by Luiz Henrique Cassettari 
 
 #define AppName "AddInManager Collection"
-#define AppVersion "1.0.0"
+#define AppVersion "1.0.1"
 #define AppPublisher "Autodesk"
-#define AppComments "AddInManager version 2015, 2016, 2017, 2018 and 2019."
+#define AppComments "AddInManager version 2015, 2016, 2017, 2018, 2019 and 2020"
 #define Appbundle "AddInManager.bundle"
 
 [Setup]

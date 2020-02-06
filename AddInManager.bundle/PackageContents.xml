@@ -50,4 +50,11 @@
     </ComponentEntry>
   </Components>
   
+  <Components Description="Revit 2020">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2020" SeriesMax="R2020" />
+    <ComponentEntry AppName="AddInManager"
+                    ModuleName="./Contents/Revit 2018/Autodesk.AddInManager.addin">
+    </ComponentEntry>
+  </Components>
+
 </ApplicationPackage>
